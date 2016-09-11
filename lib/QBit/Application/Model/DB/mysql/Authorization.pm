@@ -6,7 +6,7 @@ use base qw(QBit::Application::Model::DB::mysql QBit::Application::Model::DB::Au
 
 __PACKAGE__->meta(
     tables => {
-        authorizatuin => {
+        authorization => {
             fields => [
                 {name => 'key',           type => 'VARCHAR', length => 255, not_null => TRUE,},
                 {name => 'password_hash', type => 'VARCHAR', length => 128, not_null => TRUE,},

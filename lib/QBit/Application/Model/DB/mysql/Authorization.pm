@@ -17,3 +17,33 @@ __PACKAGE__->meta(
 );
 
 TRUE;
+
+__END__
+
+=encoding utf8
+
+=head1 Name
+
+QBit::Application::Model::DB::mysql::Authorization - MySQL table for QBit::Application::Model::Authorization.
+
+=head1 GitHub
+
+https://github.com/QBitFramework/QBit-Application-Model-DB-mysql-Authorization
+
+=head1 Install
+
+=over
+
+=item *
+
+cpanm QBit::Application::Model::DB::mysql::Authorization
+
+=item *
+
+apt-get install libqbit-application-model-db-mysql-authorization-perl (http://perlhub.ru/)
+
+=back
+
+For more information. please, see code.
+
+=cut
